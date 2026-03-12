@@ -1,11 +1,13 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import PortfolioHero from '../components/portfolio/PortfolioHero'
+import PortfolioSection from '../components/portfolio/PortfolioSection'
 
 const Portfolio = () => {
   return (
     <div className="pt-32 pb-16">
       <PortfolioHero />
+      <PortfolioSection/>
       {/* <div className="container">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

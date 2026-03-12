@@ -72,6 +72,7 @@ const Navbar = () => {
                 <NavLink
                   key={link.path}
                   to={link.path}
+                  onClick={()=> scrollTo(0,0)}
                   className={({ isActive }) =>
                     `font-medium transition-colors hover:text-[var(--color-primary)] ${
                       isActive
