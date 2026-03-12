@@ -1,9 +1,11 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import BlogsHero from '../components/blogs/BlogsHero'
 
 const Blogs = () => {
   return (
     <div className="pt-32 pb-16">
+      <BlogsHero />
       {/* <div className="container">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

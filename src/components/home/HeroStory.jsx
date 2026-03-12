@@ -2,19 +2,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const fadeInUp = {
-  hidden: { opacity: 0, y: 40 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
-};
-
-const staggerChildren = {
-  visible: {
-    transition: {
-      staggerChildren: 0.18,
-    },
-  },
-};
-
 const HeroStory = () => {
   return (
     <section className="relative min-h-[90vh] md:min-h-screen flex items-center g-gradient-to-br from-[#0a0a0a] via-[#0a0a0a] to-[#144A87]/20 overflow-hidden">
@@ -31,7 +18,6 @@ const HeroStory = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-100px" }}
-            variants={fadeInUp}
             className="relative rounded-2xl overflow-hidden shadow-2xl shadow-black/60 border border-gray-800/50"
           >
             {/* You can replace with your actual garage photo */}
@@ -63,67 +49,45 @@ const HeroStory = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-100px" }}
-            variants={staggerChildren}
             className="text-center md:text-left space-y-4 md:space-y-5"
           >
-            <motion.p
-              variants={fadeInUp}
-              className="text-[#2793FF] font-semibold tracking-widest uppercase text-sm md:text-base"
-            >
+            <motion.p className="text-[#2793FF] font-semibold tracking-widest uppercase text-sm md:text-base">
               Our Story
             </motion.p>
 
-            <motion.h1
-              variants={fadeInUp}
-              className="text-4xl sm:text-4xl  font-bold text-black leading-tight"
-            >
+            <motion.h1 className="text-4xl sm:text-4xl  font-bold text-black leading-tight">
               A Legacy of Craftsmanship & Commitment
               <br />
             </motion.h1>
 
-            <motion.div
-              variants={fadeInUp}
-              className="space-y-4 text-black/60 text-lg  leading-relaxed  max-w-2xl mx-auto md:mx-0"
-            >
+            <motion.div className="space-y-4 text-black/60 text-lg  leading-relaxed  max-w-2xl mx-auto md:mx-0">
               <p>
                 Founded by a family with a passion for quality craftsmanship,
                 A&A Plastering started when a father and son teamed up to create
-                something meaningful.
-
-                Despite language barriers and no prior construction experience,
+                something meaningful. Despite language barriers and no prior
+                construction experience,
                 <b>
-
-                the son immersed himself in the stucco trade learning from
-                seasoned craftsmen and gaining true expertise. 
+                  the son immersed himself in the stucco trade learning from
+                  seasoned craftsmen and gaining true expertise.
                 </b>
-                <br /> 
-
+                <br />
                 Over 35 years, we’ve stayed focused on high-quality projects,
-                earning a reputation for precision and <b>
-                   exceptional service
-                throughout Kansas City.
-                  </b>
+                earning a reputation for precision and{" "}
+                <b>exceptional service throughout Kansas City.</b>
               </p>
             </motion.div>
 
-            <motion.div
-              variants={fadeInUp}
-              className="pt-4 md:pt-8 flex flex-col sm:flex-row gap-5 justify-center md:justify-start"
-            >
+            <motion.div className="pt-4 md:pt-8 flex flex-col sm:flex-row gap-5 justify-center md:justify-start">
               <a
                 href="#about"
                 className="inline-flex items-center justify-center px-8 py-4 bg-[#2793FF] hover:bg-[#1e7de6] text-white font-semibold text-lg rounded-xl transition-all duration-300 shadow-xl shadow-[#2793FF]/30 hover:shadow-[#2793FF]/50 hover:-translate-y-1 min-w-[240px]"
               >
                 Learn More About Us
               </a>
-
-              
             </motion.div>
           </motion.div>
         </div>
       </div>
-
-    
     </section>
   );
 };

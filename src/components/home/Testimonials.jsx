@@ -240,9 +240,9 @@ const Testimonials = () => {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="mb-3"
+        className="mb-5"
       >
-        <h2 className="text-center text-2xl md:text-5xl font-bold text-gray-900 mb-8 px-4">
+        <h2 className="text-center text-2xl md:text-5xl font-semibold text-gray-900 mb-8 px-4">
           From Vision to Reality: Our Project Gallery
         </h2>
         <InfiniteImageStrip />

@@ -1,11 +1,13 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import AboutHero from '../components/about/AboutHero'
+import AboutSection from '../components/about/AboutSection'
 
 const About = () => {
   return (
     <div className="pt-32 pb-16">
       <AboutHero />
+      <AboutSection/>
       {/* <div className="container">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

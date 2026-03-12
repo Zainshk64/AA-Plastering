@@ -1,11 +1,13 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import ServiceHero from '../components/services/ServiceHero'
+import ServiceSection from '../components/services/ServiceSection'
 
 const Services = () => {
   return (
     <div className="pt-32 pb-16">
       <ServiceHero />
+      <ServiceSection/>
       {/* <div className="container">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

@@ -11,6 +11,7 @@ import {
   FaPhone,
   FaPencilAlt,
 } from "react-icons/fa";
+import { HiPencilAlt } from "react-icons/hi";
 
 /* ─── Step data ─────────────────────────────────────────── */
 const steps = [
@@ -139,7 +140,7 @@ const PoolColumn = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-[var(--color-primary)] cursor-pointer text-white px-8 py-4 rounded-lg font-semibold text-lg shadow-lg hover:bg-[var(--color-secondary)] transition-colors flex items-center gap-3"
               >
-                <FaPencilAlt />
+                <HiPencilAlt />
                 Request a Consultation
               </motion.button>
             </Link>
@@ -211,7 +212,7 @@ const PoolColumn = () => {
                   y: -8,
                   transition: { duration: 0.3 },
                 }}
-                className="group bg-white border border-gray-200 rounded-xl p-6 shadow-md hover:shadow-2xl transition-all duration-300 cursor-default relative overflow-hidden"
+                className="group bg-blue-50 border border-gray-200 rounded-xl p-6 shadow-md hover:shadow-2xl transition-all duration-300 cursor-default relative overflow-hidden"
               >
                 {/* Hover Background Overlay */}
                 <div className="absolute inset-0 bg-[var(--color-secondary)] opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl" />
@@ -226,7 +227,7 @@ const PoolColumn = () => {
                     </div>
 
                     {/* Step Number */}
-                    <span className="text-5xl font-black text-gray-200 group-hover:text-white/30 transition-colors duration-300 leading-none">
+                    <span className="text-5xl font text-[var(--color-secondary)]/20 group-hover:text-white/30 transition-colors duration-300 leading-none">
                       {number}
                     </span>
                   </div>
