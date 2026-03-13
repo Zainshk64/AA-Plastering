@@ -6,6 +6,7 @@ import Testimonials from '../components/home/Testimonials'
 import CTASection from '../components/home/CTASection'
 import HeroStory from '../components/home/HeroStory'
 import PoolColumn from '../components/home/PoolColumn'
+import ClientTestimonials from '../components/home/ClientTestimonials'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <PoolColumn/>
       {/* <PortfolioPreview /> */}
       <Testimonials />
+      <ClientTestimonials/>
       <CTASection />
     </>
   )
