@@ -5,7 +5,7 @@ import AboutSection from '../components/about/AboutSection'
 
 const About = () => {
   return (
-    <div className="pt-32 pb-16">
+    <div className="pt-32">
       <AboutHero />
       <AboutSection/>
       {/* <div className="container">

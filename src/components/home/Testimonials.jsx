@@ -249,7 +249,7 @@ const Testimonials = () => {
       </motion.div>
 
       {/* ── Testimonials ──────────────────────────────── */}
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -260,8 +260,8 @@ const Testimonials = () => {
           What Our Customers Say About us
         </h2>
 
-        {/* <TestimonialSlider /> */}
-      </motion.div>
+        <TestimonialSlider />
+      </motion.div> */}
     </section>
   )
 }

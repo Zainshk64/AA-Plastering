@@ -5,7 +5,7 @@ import ServiceSection from '../components/services/ServiceSection'
 
 const Services = () => {
   return (
-    <div className="pt-32 pb-16">
+    <div className="pt-32">
       <ServiceHero />
       <ServiceSection/>
       {/* <div className="container">

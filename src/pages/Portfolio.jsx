@@ -5,7 +5,7 @@ import PortfolioSection from '../components/portfolio/PortfolioSection'
 
 const Portfolio = () => {
   return (
-    <div className="pt-32 pb-16">
+    <div className="pt-32">
       <PortfolioHero />
       <PortfolioSection/>
       {/* <div className="container">

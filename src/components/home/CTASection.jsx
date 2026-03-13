@@ -21,7 +21,7 @@ const CTASection = () => {
               transition={{ duration: 0.3 }}
               className="bg-white rounded-xl overflow-hidden  transition"
             >
-              <div className="h-[220px] rounded-lg overflow-hidden">
+              <div className="h-[320px] rounded-lg overflow-hidden">
                 <img
                   src="/article1.jpg"
                   alt="stucco article"
@@ -51,7 +51,7 @@ const CTASection = () => {
               transition={{ duration: 0.3 }}
               className="bg-white rounded-xl overflow-hidden transition"
             >
-               <div className="h-[220px] rounded-lg overflow-hidden">
+               <div className="h-[320px] rounded-lg overflow-hidden">
                 <img
                   src="/article2.jpg"
                   alt="stucco article"
