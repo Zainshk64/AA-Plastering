@@ -21,8 +21,8 @@ const AppRouter = () => {
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="blogs" element={<Blogs />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="single-blog/:id" element={<SingleBlog/>}/>
-          <Route path="single-service/:id" element={<SingleService/>}/>
+          {/* <Route path="single-blog/:id" element={<SingleBlog/>}/> */}
+          {/* <Route path="single-service/:id" element={<SingleService/>}/> */}
 
         </Route>
       </Routes>

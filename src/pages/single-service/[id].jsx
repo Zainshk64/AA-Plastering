@@ -106,8 +106,7 @@ const SingleService = () => {
           {/* ════ SIDEBAR ═════════════════════════════════════ */}
           <aside className="w-full lg:w-[280px] flex-shrink-0 space-y-5">
 
-            {/* Other Services */}
-            <div className="border border-gray-200 rounded-2xl overflow-hidden sticky top-28">
+            {/* <div className="border border-gray-200 rounded-2xl overflow-hidden sticky top-28">
               <div className="px-5 py-4 border-b border-gray-100">
                 <h3 className="text-base font-bold text-gray-900">
                   Other Services
@@ -128,7 +127,6 @@ const SingleService = () => {
                 ))}
               </ul>
 
-              {/* Mailing list */}
               <div className="bg-[var(--color-primary)] px-5 py-5 mt-4">
                 <p className="text-white font-bold text-sm text-center mb-3">
                   Join Our Mailing List
@@ -154,7 +152,6 @@ const SingleService = () => {
                 </form>
               </div>
 
-              {/* Social share */}
               <div className="px-5 py-4 flex items-center gap-3">
                 <span className="text-sm text-gray-500 font-medium">Share:</span>
                 <a
@@ -179,7 +176,7 @@ const SingleService = () => {
                   <FaLinkedin className="text-white text-sm" />
                 </a>
               </div>
-            </div>
+            </div> */}
 
           </aside>
         </div>
