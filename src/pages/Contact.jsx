@@ -74,7 +74,7 @@ const Toast = ({ message, type, onClose }) => {
 // ─── Main Contact Page ──────────────────────────────────────
 const Contact = () => {
   // ── Replace with YOUR Formspree endpoint ──
-  const FORMSPREE_URL = "https://formspree.io/f/mbdzpkgk";
+  const FORMSPREE_URL = "https://formspree.io/f/meerpvzr";
 
   const [formData, setFormData] = useState({
     name: "",
