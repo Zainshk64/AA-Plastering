@@ -60,10 +60,10 @@ const Navbar = () => {
         }`}
       >
         <div className="container">
-          <div className="flex justify-between items-center h-30">
+          <div className="flex justify-between items-center h-25">
             {/* Logo */}
             <Link to="/" className="flex items-center">
-              <img src="/logo.jpg" className="w-40 h-30 object-cover" alt="A&A Plastering" />
+              <img src="/logo.jpg" className="w-20 h-20 object-cover" alt="A&A Plastering" />
             </Link>
 
             {/* Desktop Navigation */}
