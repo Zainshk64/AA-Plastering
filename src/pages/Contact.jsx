@@ -417,6 +417,21 @@ const Contact = () => {
         </div>
       </section>
 
+
+        <section className="w-full">
+        <iframe
+          title="A&A Plastering Location"
+          src="https://www.google.com/maps?q=place_id:ChIJ0ViCRIVP1moRm7M6K10l-Bo&output=embed"
+          width="100%"
+          height="450"
+          style={{ border: 0 }}
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          className="w-full h-[300px] sm:h-[400px] md:h-[450px] lg:h-[500px]"
+        />
+      </section>
+
       {/* ── CTA Section ── */}
       <section className="relative h-[420px] md:h-[300px] overflow-hidden">
         <motion.div className="absolute inset-0 w-full h-[110%] -top-[10%]">
