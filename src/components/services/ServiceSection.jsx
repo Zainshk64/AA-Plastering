@@ -14,7 +14,7 @@ const ServiceSection = () => {
               className="relative rounded-2xl overflow-hidden shadow-2xl shadow-black/60 border border-gray-800/50"
             >
               <img
-                src="/services/img1.jpg"
+                src="https://res.cloudinary.com/drdpqf3ns/image/upload/v1774377892/9a3ae35d-831c-4b69-9be1-70969459f5d2_w1ysc4.jpg"
                 alt="A&A Plastering garage workshop – where it all began"
                 className="w-full h-[380px] md:h-[420px] object-cover brightness-[0.85] contrast-[1.05]"
               />
@@ -109,7 +109,7 @@ const ServiceSection = () => {
               className="relative rounded-2xl overflow-hidden shadow-2xl shadow-black/60 border border-gray-800/50"
             >
               <img
-                src="/services/img3.jpg"
+                src="https://res.cloudinary.com/drdpqf3ns/image/upload/v1774377687/b06734ba-adad-4d8a-9e4d-e76321d32978_yrenxe.jpg"
                 alt="A&A Plastering garage workshop – where it all began"
                 className="w-full h-[380px] md:h-[420px] object-cover brightness-[0.85] contrast-[1.05]"
               />
@@ -142,7 +142,7 @@ const ServiceSection = () => {
 
 
        <section className="relative min-h-[90vh] md:min-h-screen flex overflow-hidden bg-[#F2F7FC] ">
-        <div className="relative z-10 container mx-auto px-5 sm:px-8 py-16 md:py-24 lg:py-32"> ">
+        <div className="relative z-10 container mx-auto px-5 sm:px-8 py-16 md:py-24 lg:py-32">
           <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
             {/* Right side – Text content */}
             <motion.div
@@ -170,7 +170,7 @@ const ServiceSection = () => {
               className="relative rounded-2xl overflow-hidden shadow-2xl shadow-black/60 border border-gray-800/50"
             >
               <img
-                src="/services/img4.jpg"
+                src="https://res.cloudinary.com/drdpqf3ns/image/upload/v1774378044/d1a057d1-b992-412a-a273-5643a3e2f0bf_e4icfl.jpg"
                 alt="A&A Plastering garage workshop – where it all began"
                 className="w-full h-[380px] md:h-[420px] object-cover brightness-[0.85] contrast-[1.05]"
               />
@@ -202,7 +202,7 @@ const ServiceSection = () => {
               className="relative rounded-2xl overflow-hidden shadow-2xl shadow-black/60 border border-gray-800/50"
             >
               <img
-                src="/services/img5.jpg"
+                src="https://res.cloudinary.com/drdpqf3ns/image/upload/v1774377753/ad92b9e1-8815-49b3-9e00-02e7620be55b_tdu8su.jpg"
                 alt="A&A Plastering garage workshop – where it all began"
                 className="w-full h-[380px] md:h-[420px] object-cover brightness-[0.85] contrast-[1.05]"
               />
@@ -351,6 +351,56 @@ const ServiceSection = () => {
 
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
             </motion.div>
+          </div>
+        </div>
+      </section>
+
+
+
+        <section className="relative min-h-[90vh] md:min-h-screen flex overflow-hidden">
+        <div className="relative z-10 container mx-auto px-5 sm:px-8 py-16 md:py-24 lg:py-32 ">
+          <div className="grid md:grid-cols-2 gap-10 md:gap-16 items-center">
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, margin: "-100px" }}
+              className="relative rounded-2xl overflow-hidden shadow-2xl shadow-black/60 border border-gray-800/50"
+            >
+              <img
+                src="https://res.cloudinary.com/drdpqf3ns/image/upload/v1774379512/9f84bb72-880f-4807-9d4d-d0cf07d219a0_mi7mt1.jpg"
+                alt="A&A Plastering garage workshop – where it all began"
+                className="w-full h-[380px] md:h-[420px] object-cover brightness-[0.85] contrast-[1.05]"
+              />
+
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+            </motion.div>
+
+            {/* Right side – Text content */}
+            <motion.div
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: true, margin: "-100px" }}
+  className="text-center md:text-left space-y-4 md:space-y-5"
+>
+  <motion.h1 className="text-4xl sm:text-4xl font-bold text-black leading-tight">
+    Stucco Bathrooms
+    <br />
+  </motion.h1>
+
+  <motion.div className="space-y-4 text-black/60 text-lg leading-relaxed max-w-2xl mx-auto md:mx-0">
+    
+    <p>
+      Transform your bathroom into a modern, seamless space with our premium stucco finishes. Stucco bathrooms offer a clean, waterproof, and elegant look that enhances both residential and commercial interiors. At A&A, we specialize in creating smooth, durable surfaces that resist moisture while maintaining a sophisticated appearance.
+    </p>
+
+    <p>
+      Our team carefully designs each bathroom to ensure functionality meets aesthetics. From walls to shower areas, we apply high-quality materials that provide long-lasting performance with minimal maintenance. Every detail is crafted to deliver a refined finish that elevates your everyday experience.
+    </p>
+
+    
+
+  </motion.div>
+</motion.div>
           </div>
         </div>
       </section>

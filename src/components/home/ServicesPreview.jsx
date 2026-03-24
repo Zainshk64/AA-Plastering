@@ -34,21 +34,21 @@ const services = [
     title: 'Traditional Stucco',
     description:
       'At A&A Plastering, we specialize in providing high-quality traditional stucco applications...',
-    image: '/service1.jpg',
+    image: 'https://res.cloudinary.com/drdpqf3ns/image/upload/v1774376039/db07a2b0-bbb3-44da-ab6b-3a0f7bd694d1_xr6t9l.jpg',
   },
   {
     Icon: TextureIcon,
-    title: 'Texture or Acrylic Finish',
+    title: 'Synthetic stucco or EIFS',
     description:
       'A&A offers a wide variety of texture and acrylic finishes, allowing homeowners to p...',
-    image: '/service2.jpg',
+    image: 'https://res.cloudinary.com/drdpqf3ns/image/upload/v1774375678/22af289b-1250-4a2e-b78d-4d8b11caa1db_o6pubp.jpg',
   },
   {
     Icon: RepairIcon,
     title: 'Stucco & Stone Repairs',
     description:
       'A&A is your go-to source for professional stucco and stone repairs, providing quick,...',
-    image: '/service3.jpg',
+    image: 'https://res.cloudinary.com/drdpqf3ns/image/upload/v1774377753/ad92b9e1-8815-49b3-9e00-02e7620be55b_tdu8su.jpg',
   },
 ]
 
