@@ -421,7 +421,7 @@ const Contact = () => {
         <section className="w-full">
         <iframe
           title="A&A Plastering Location"
-          src="https://www.google.com/maps?q=place_id:ChIJ0ViCRIVP1moRm7M6K10l-Bo&output=embed"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.203951339877!2d-94.4994535!3d38.9878414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0e5b8c891c7fb%3A0xba1b0279293bdba4!2sA%26A%20Plastering!5e0!3m2!1sen!2s!4v1774461677692!5m2!1sen!2s"
           width="100%"
           height="450"
           style={{ border: 0 }}
