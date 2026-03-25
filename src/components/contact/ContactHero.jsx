@@ -4,6 +4,7 @@ const ContactHero = () => {
     return (
          <section className="relative h-[220px] sm:h-[260px] md:h-[320px] lg:h-[360px] flex items-center overflow-hidden">
       {/* Background Image */}
+      
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url(/banner.jpg)" }}
