@@ -9,6 +9,7 @@ import {
   FaEnvelope,
   FaMapMarkerAlt,
   FaArrowUp,
+  FaTiktok,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -50,9 +51,9 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: FaFacebookF, url: "https://facebook.com", label: "Facebook" },
-    { icon: FaTwitter, url: "https://twitter.com", label: "Twitter" },
-    { icon: FaInstagram, url: "https://instagram.com", label: "Instagram" },
+    { icon: FaFacebookF, url: "https://www.facebook.com/share/17UZ8GSXvT/", label: "Facebook" },
+    { icon: FaTiktok, url: "https://www.tiktok.com/@antonio.navarro247?is_from_webapp=1&sender_device=pc", label: "Twitter" },
+    // { icon: FaInstagram, url: "https://instagram.com", label: "Instagram" },
   ];
 
   return (

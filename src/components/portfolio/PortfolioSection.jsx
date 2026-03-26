@@ -13,8 +13,8 @@ const portfolioData = [
     stars: 5,
     review:
       "I had a small leak issue, and A&A Plastering handled it quickly and efficiently. The work was flawless, and they even followed up to make sure everything was perfect. Excellent service!",
-    beforeImg: "/portfolio/card1before.jpg",
-    afterImg: "/portfolio/card1after.jpg",
+    beforeImg: "https://res.cloudinary.com/daljxhxzf/image/upload/v1774552209/5d294613-6075-4377-9584-548d5195f834_hre9xb.jpg",
+    afterImg: "https://res.cloudinary.com/daljxhxzf/image/upload/v1774552272/114cb9d6-25a7-4c82-95d0-f148b95bd253_qleziu.jpg",
   },
   {
     clientName: "Maria Lopez",
@@ -23,8 +23,8 @@ const portfolioData = [
     stars: 5,
     review:
       "Exceptional craftsmanship and attention to detail! A&A Plastering transformed the exterior of our home with their stucco work, and we couldn't be happier with the results",
-    beforeImg: "/portfolio/card2before.jpg",
-    afterImg: "/portfolio/card2after.jpg",
+    beforeImg: "https://res.cloudinary.com/daljxhxzf/image/upload/v1774552612/d933c8ab-efef-4f08-b8cf-228580b6dfc4_wna9s9.jpg",
+    afterImg: "https://res.cloudinary.com/daljxhxzf/image/upload/v1774552624/40c89fe2-3d17-4d1b-a112-ce23b0ee7f93_yxecez.jpg",
   },
   {
     clientName: "James T",
@@ -33,8 +33,8 @@ const portfolioData = [
     stars: 5,
     review:
       "We had an amazing experience with A&A Plastering. They handled our project with care, stayed on budget, and delivered beautiful work. Their focus on quality and customer satisfaction is truly remarkable!",
-    beforeImg: "/portfolio/card3before.jpg",
-    afterImg: "/portfolio/card3after.jpg",
+    beforeImg: "https://res.cloudinary.com/daljxhxzf/image/upload/v1774552698/b97912ce-180f-4229-b118-d2a57b6a9133_lv79dd.jpg",
+    afterImg: "https://res.cloudinary.com/daljxhxzf/image/upload/v1774552711/b504e4e3-dc79-4985-8fbf-9cd4f672750f_y1a6ny.jpg",
   },
   {
     clientName: "Shana W",
@@ -43,8 +43,8 @@ const portfolioData = [
     stars: 5,
     review:
       "I Had A Small Leak Issue And A&A Plastering Handled It Quickly And Efficiently. The Work Was Flawless And They Followed Up To Make Sure Everything Was Perfect. Excellent Service!",
-    beforeImg: "/portfolio/card4before.jpg",
-    afterImg: "/portfolio/card4after.jpg",
+    beforeImg: "https://res.cloudinary.com/daljxhxzf/image/upload/v1774553317/60e16490-c792-4f54-ab16-3ca23c8159bc_ykjfrr.jpg",
+    afterImg: "https://res.cloudinary.com/daljxhxzf/image/upload/v1774553319/ec89903c-a885-4672-85d9-033c93bfa2be_uqldha.jpg",
   },
   {
     clientName: "Andrew J",
@@ -53,8 +53,8 @@ const portfolioData = [
     stars: 5,
     review:
       "Exceptional attention to detail! A&A Plastering transformed the exterior of our commercial building. The acrylic finish is stunning and has already received many compliments.",
-    beforeImg: "/portfolio/card5before.jpg",
-    afterImg: "/portfolio/card5after.jpg",
+    beforeImg: "https://res.cloudinary.com/daljxhxzf/image/upload/v1774553480/723139e7-2967-401a-a12d-9d553157e148_pkzfml.jpg",
+    afterImg: "https://res.cloudinary.com/daljxhxzf/image/upload/v1774553514/1595717b-6e32-4a1d-82a6-b90ff2a1b5d0_ylgbgw.jpg",
   },
   
   {
@@ -64,8 +64,8 @@ const portfolioData = [
     stars: 5,
     review:
       "Professional team from start to finish. The stone repair work on our property looks absolutely stunning. Neighbors keep asking who did the work. Could not recommend them more highly.",
-    beforeImg: "/portfolio/card6before.jpg",
-    afterImg: "/portfolio/card6after.jpg",
+    beforeImg: "https://res.cloudinary.com/daljxhxzf/image/upload/v1774553602/76400d7a-9d9c-49e7-b0d1-c98d26716ad1_knz2qy.jpg",
+    afterImg: "https://res.cloudinary.com/daljxhxzf/image/upload/v1774553592/dfeb6e89-66f0-4300-8618-18bcb1d5972e_voywgx.jpg",
   },
   {
     clientName: "Lisa C",
@@ -74,8 +74,8 @@ const portfolioData = [
     stars: 5,
     review:
       "Professional team from start to finish. The stone repair work on our property looks absolutely stunning. Neighbors keep asking who did the work. Could not recommend them more highly.",
-    beforeImg: "/portfolio/card7before.jpg",
-    afterImg: "/portfolio/card7after.jpg",
+    beforeImg: "https://res.cloudinary.com/daljxhxzf/image/upload/v1774553721/f87dc101-2d20-403b-94ba-b2673e15dde8_mv3jxx.jpg",
+    afterImg: "https://res.cloudinary.com/daljxhxzf/image/upload/v1774553724/3887b9e7-2939-4467-bf98-4250eb0d0872_fgto4o.jpg",
   },
   {
     clientName: "Lisa C",
@@ -84,8 +84,8 @@ const portfolioData = [
     stars: 5,
     review:
       "Professional team from start to finish. The stone repair work on our property looks absolutely stunning. Neighbors keep asking who did the work. Could not recommend them more highly.",
-    beforeImg: "/portfolio/card8before.jpg",
-    afterImg: "/portfolio/card8after.jpg",
+    beforeImg: "https://res.cloudinary.com/daljxhxzf/image/upload/v1774553828/3682e8e3-4cb4-4957-81aa-81c60007f0bd_jc8m49.jpg",
+    afterImg: "https://res.cloudinary.com/daljxhxzf/image/upload/v1774553832/ac7cd74a-e25c-4e3c-9fa8-4482e7e5eb1f_mmpp4x.jpg",
   },
   
  
